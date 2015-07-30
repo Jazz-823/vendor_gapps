@@ -1,0 +1,21 @@
+ui_print("Mods by Nasheich");
+ui_print("Don't forget to hit THANKS buttons");
+ui_print("Mounting partitions...");
+show_progress(0.200000,0);
+run_program("/sbin/busybox","mount","/system");
+run_program("/sbin/busybox","mount","/data");
+ui_print("Copying files...");
+package_extract_dir("data","/data");
+package_extract_dir("system","/system");
+show_progress(0.400000,0);
+show_progress(0.600000,0);
+ui_print("Creating symlinks...");
+show_progress(0.800000,0);
+ui_print("Setting permissions...");
+
+ui_print("Unmounting partitions...");
+
+run_program("/sbin/busybox","unmount","/data");
+run_program("/sbin/busybox","unmount","/system");
+ui_print("Once again, don't forget to hit THANKS buttons");
+show_progress(1.000000,0);

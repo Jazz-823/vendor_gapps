@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: system/etc/media_profiles.xml
+SHA1-Digest: IsQ+3LiKSVmuS66KecdcYC7YvtQ=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: XmPJQICWtDKOx6AdG87JfXoCucQ=
+
+Name: system/app/Gallery2.apk
+SHA1-Digest: x8CljyakYRQxYaD8bQUJw22zXYU=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: Ec/6R2A5/eOJzu6ZlUdfipIH2YE=
+
